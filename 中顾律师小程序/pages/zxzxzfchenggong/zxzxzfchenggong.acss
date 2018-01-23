@@ -1,0 +1,73 @@
+.wrap{
+    background: #f5f5f5;
+    width: 100%;
+
+}
+.row1{
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 47rpx 0;
+    margin-top: 26rpx;
+    box-shadow: 4px 4px 4px #e3e3e3;
+}
+.row1-1{
+    
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.row1-1 image{
+    width: 74rpx;
+    height: 74rpx;
+    vertical-align: middle;
+    margin-right: 20rpx;
+}
+.title{
+    font-size: 33rpx;
+    font-weight: bold;
+    color: #cf000c;
+    margin-bottom: 10rpx;
+
+
+}
+.zzjd{
+    font-size: 30rpx;
+    color: #333333;
+}
+.row1-2{
+    margin-top: 20px;
+    font-size: 22rpx;
+    color: #999999;
+}
+.row2{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 4px 4px 4px #e3e3e3;
+    font-size: 30rpx;
+    margin-top: 29rpx;
+}
+.bolod{
+    font-weight: bold;
+}
+.row2-1{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40rpx 35rpx;
+    border-bottom: 1px dotted #e3e3e3;
+}
+.jd-time,.who-cansee{
+    font-size: 24rpx;
+    color: #999;
+    float: right;
+}
+.money{
+    color: #cf000c;
+}
+.mar{
+    margin-bottom: 20rpx;
+}

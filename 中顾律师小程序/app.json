@@ -1,0 +1,66 @@
+{
+  "pages": [  
+     "pages/index/index",
+    "pages/dhzx/dhzx", 
+    
+    "pages/myzxzxxq/myzxzxxq",
+    "pages/my/my" ,
+    
+     "pages/lvshixiangqing/lvshixiangqing",
+    "pages/zxzx/zxzx", 
+    "pages/shengjifuwu/shengjifuwu",
+    
+    "pages/dhzixunxxxlvshi/dhzixunxxxlvshi",
+    "pages/wzzixunxxxlvshi/wzzixunxxxlvshi",
+    "pages/yiduiyizhifu/yiduiyizhifu",
+    "pages/dhzixunzhifu/dhzixunzhifu",
+    "pages/zxzxzfchenggong/zxzxzfchenggong",
+    "pages/ydyzxzfchenggong/ydyzxzfchenggong",
+    
+    "pages/myzxzxlist/myzxzxlist",
+    "pages/woyaojiameng/woyaojiameng",
+    "pages/jiamengfankui/jiamengfankui",
+    "pages/dhzxlist/dhzxlist",
+     "pages/yijianbianji/yijianbianji",
+     "pages/yijianfankui/yijianfankui"
+ 
+   ],
+  "window": {
+    "defaultTitle": "中顾法律网",
+    "titleBarColor":"#3765cc",
+     "Color":"#fff"
+     },
+    "tabBar": {
+    "textColor": "#666",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "icon": "images/sy-w.png",
+        "activeIcon": "images/sy.png",
+        "name": "首页"
+      },
+       {
+        "pagePath": "pages/zxzx/zxzx",
+        "icon": "images/zx-w.png",
+        "activeIcon": "images/zx.png",
+        "name": "在线咨询"
+       }
+      ,
+       {
+        "pagePath": "pages/dhzx/dhzx",
+        "icon": "images/dh-w.png",
+        "activeIcon": "images/dh.png",
+        "name": "电话咨询"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "icon": "images/my-w.png",
+        "activeIcon": "images/my.png",
+        "name":"个人中心"
+      }
+    ]
+  }
+
+}

@@ -1,0 +1,31 @@
+<view class="wrap">
+  <view class="row1">
+    <view class="row1-1">
+      <image src="../../images/smeil.png" mode="aspectFit" />
+      <view class="r1-right">
+        <view class="title">恭喜您，您的问题发布成功!</view>
+        <view class="zzjd">律师正在解答请稍等片刻。</view>
+      </view>
+    </view>
+    <view class="row1-2">（温馨提示：律师解答后将短信通知您，请注意查看！）</view>
+  </view>
+  <!--
+  <view class="row2">
+    <view class="row2-1 row2-1 bolod">尊敬的用户 ，您的服务已订购成功：</view>
+    <view class="row2-1 row2-2">服务项目： 普通咨询                   <text class="jd-time">（3小时内解答）</text></view>
+    <view class="row2-1 row2-3">联系方式： 18769396733     <text class="who-cansee">（仅本人和律师可见）</text></view>
+    <view class="row2-1 row2-4">支付金额：<text class="money">¥19.9元</text> </view>
+    <view class="row2-1 row2-5">订单号码： 201712154125412541256</view>
+  </view>
+  
+  <view class="row2">
+    <view class="row2-1 row2-1 bolod">系统为您自动生成账户密码，可以登录中顾法律
+网使用（www.9ask.cn）</view>
+    <view class="row2-1 row2-2">
+        <view class=" row2-2 mar" >账户：{{num}}  <text class="jd-time" onTap="handleCopy">复制</text></view>
+        <view class=" row2-2">密码：{{psw}}  <text class="jd-time" onTap="handleCopypsw">复制</text></view>
+
+    </view>
+   -->
+  </view>
+</view>

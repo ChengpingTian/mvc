@@ -1,0 +1,110 @@
+<view class="wrap">
+  <view class="s-banner">
+    <image src="../../images/i-banner.png" mode="widthFix" />
+  </view>
+  <view class="fu-list" >
+    <view class="list-1"onTap="zhifu">
+      <view class="list-top">
+        <view class="law-type">
+          <text>一般律师</text>
+        </view>
+        <view class="law-fu">
+          <view>
+            <text class="zxtype">普通咨询</text>
+            <text class="f-time">30分钟审核通过</text>
+          </view>
+          <view class="huifu-time">律师回复：
+            <text class="c-num">1-3</text>小时
+          </view>
+          <view class="huifu-time">律师回复短信通知：
+            <text class="c-num">1</text>次
+          </view>
+        </view>
+      </view>
+      <view class="list-bot">
+        <view >
+          <text class="f-price">19.9</text>元
+        </view>
+        <view>
+          <text class="f-price"> 6%</text>购买
+                
+        </view>
+      </view>
+    </view>
+    <view class="list-1" onTap="zhifu">
+      <view class="list-top">
+        <view class="law-type">
+          <text>VIP律师</text>
+        </view>
+        <view class="law-fu">
+          <view>
+            <text class="zxtype">VIP咨询</text>
+            <text class="f-time">15分钟审核通过</text>
+          </view>
+          <view class="huifu-time">律师回复：
+            <text class="c-num">30</text>分钟内
+          </view>
+          <view class="huifu-time">律师回复短信通知：
+            <text class="c-num">10</text>次
+          </view>
+        </view>
+      </view>
+      <view class="list-bot">
+        <view >
+          <text class="f-price">29.9</text>元
+        </view>
+        <view>
+          <text class="f-price"> 81%</text>购买
+                
+        </view>
+      </view>
+    </view>
+    <view class="list-1" onTap="zhifu">
+      <view class="list-top">
+        <view class="law-type" style="padding:12rpx; line-height:50rpx;">
+          <text>品牌大律师</text>
+        </view>
+        <view class="law-fu">
+          <view>
+            <text class="zxtype">专属咨询</text>
+            <text class="f-time">1分钟审核通过</text>
+          </view>
+          <view class="huifu-time">律师回复：
+            <text class="c-num">15</text>分钟内
+          </view>
+          <view class="huifu-time">律师回复短信通知：
+            <text class="c-num">无上限</text>
+          </view>
+        </view>
+      </view>
+      <view class="list-bot">
+        <view >
+          <text class="f-price">49.9</text>元
+        </view>
+        <view>
+          <text class="f-price"> 13%</text>购买
+        
+        </view>
+      </view>
+    </view>
+    <view class="nrt-yy">
+      <text>选择相应服务，问题解决率 
+        <text class="c-num">99%</text>
+      </text>
+    </view>
+    <view class="f-tips">
+      <view>友情提醒：</view>
+      <view>1.本服务只包含律师在线解答（工作日9:00~18:00）。</view>
+      <view>2.计划生育/户口/中奖/加盟/退休/退伍等不属于法律问题，律
+师无法给予解答，一经支付，不予退款！</view>
+      <view>3.成功支付后，律师在线文字解答，可从回复页面中筛选律师，
+主动拨打律师电话进行咨询。</view>
+    </view>
+    <view class="ban">
+      <image src="../../images/logo.png" mode="widthFix" />
+      <view>专业优质的法律服务平台</view>
+      <view>©2003-2017 9ask.cn All Rights Reserved.</view>
+      <view>鲁公网安备 37010102000476号 鲁ICP备12021926号</view>
+    </view>
+  </view>
+</view>

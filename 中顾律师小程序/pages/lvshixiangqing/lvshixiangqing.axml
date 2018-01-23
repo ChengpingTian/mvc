@@ -1,0 +1,44 @@
+<view class="wrap">
+    <view class="row1">
+        <view class="s-row1">
+            <image src=" {{lawinfo.userpic}}" mode="scaleToFill" />
+            <view class="right">
+                <view class="law-name">
+                    <text>{{lawinfo.truename}}</text>
+                    <text>律师</text>
+                    <text class="long-time">执业{{lawinfo.zynx}}年</text>
+                </view>
+                <view class="law-where">
+                   {{lawinfo.workfirmname}}
+               </view>
+            </view>
+        </view>
+        <view class="s-row2">
+            <image src="../../images/loc2.png" mode="aspectFit" />
+            <text>{{lawinfo.pname}} - {{lawinfo.cname}}   {{lawinfo.address}}</text>
+        </view>
+    </view>
+    <view class="row2">
+        <view class="row2-title">
+            律师简介
+        </view>
+        <view class="row2-con">
+            <image src=" {{lawinfo.certimg}}" mode="scaleToFill" />
+             
+        </view>
+        <text>执业律所：{{lawinfo.workfirmname}}</text>
+    </view>
+    <view class="btn-g">
+             <navigator url="/pages/dhzixunxxxlvshi/dhzixunxxxlvshi?userid={{lawinfo.userid}}">
+        <view class="tel">
+            <image src="../../images/tel2.png" mode="aspectFit" />
+            <text>电话咨询</text>
+        </view>
+          </navigator>
+ 
+        <view class="online" onTap="tip">
+            <image src="../../images/message.png" mode="aspectFit" />
+            <text>在线咨询</text>
+        </view>
+    </view>
+</view>

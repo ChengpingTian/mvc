@@ -1,0 +1,124 @@
+<view class="app-wrap">
+  <!-- 第一行 -->
+  <view class="qa_item">
+    <text class="p">{{info.content}}</text>
+    <view class="date">
+      <text class="dfont">{{info.inputtime}}</text>
+      <text class="dfont">已有                                                                 
+        <text>{{info.answers}}</text>位律师解答                                             
+      </text>
+    </view >
+  </view>
+  <!-- loop-s -->
+
+   <view class="lawyer_anser" a:for="{{info.hflist}}">
+        <view class="row1">
+          <view class="tx_box">
+            <view class="yicn" a:if="{{item.best_id==1}}">
+          <image src="../../images/caina.png" mode="aspectFit" />
+        </view>
+            <image class="txtx" src="{{item.lawyer.userpic}}" mode="aspectFit" / >
+              <view class="l_info">
+                <view class="wei_name">
+                  <text style='font-weight: 600;'>{{item.lawyer.truename}}</text>律师
+                                  
+                  <image a:if="{{item.vip==1}}" class="vip" src="../../images/vip.png" mode="aspectFit" />
+                </view>
+                <view class="check_editor">
+                   {{item.lawyer.pname}}-{{item.lawyer.cname}}
+          </view>
+              </view>
+            </view>
+           <view class="tel_q">电话咨询</view>
+          </view>
+         
+          <view class="zw">
+            <view class="jd-con">{{item.content2}}</view>
+          </view>
+          <!-- zw-s -->
+          <view a:if="{{item.zhuiwen.length > 0}}">
+          <label a:for="{{item.zhuiwen}}" a:for-item="zw">
+          <view class="zw">
+          <image a:if="{{zw.type==2}}" src="../../images/zw_hui.png" mode="aspectFit" />
+          <image a:if="{{zw.type==1}}" src="../../images/jd_hui.png" mode="aspectFit" />
+          <view>{{zw.content}}</view>
+                </view>
+          </label>
+        </view>
+          <!-- zw-e -->
+          <view class="row3">
+            <view class="date_">{{item.hftime}}</view>
+            <view>
+              <text class="tousu" onTap="yjbj">投诉                         
+                <image class="ts" src="../../images/ts.png" mode="aspectFit" />
+              </text>
+              <text class="dianzan">点赞（{{item.reviews}}）</text>
+            </view>
+          </view>
+          <!-- 第四行 -->
+          <!--第五行-->
+          <view class="row4">
+            <view class="div_4 zhuiwen" data-ansid="{{item.id}}" onTap="zhuiwen">追问</view>
+            <view class="div_4 cna" data-ansid="{{item.id}}" onTap="caina">采纳</view>
+            <view class="div_4 daxie" data-index="{{index}}"  onTap="send">送心意</view>
+          </view>
+          <!--第五行-->
+        </view>
+         <!--dss-->
+          <view class="v_wrap {{station5?'show-v':'hide-v'}} ">
+          <view class="bg_box">
+            <view class="w-tap  {{station4?'show-v':'hide-v'}}">
+            <view class="dscon ">
+              <image class="close " src="../../images/close.png" mode="aspectFit" onTap="close" />
+              <view class="ds_body">
+                <view class="tx_box">
+                  <image src="{{dashang.userpic}}" style="width: 60px ;height: 60px;" mode="aspectFit" />
+                  <view class="l_info">
+                    <view class="wei_name">
+                      <text style="font-weight: 600;">{{dashang.truename}}</text>律师
+                    </view>
+                    <view class="check_editor">{{dashang.pname}}-{{dashang.cname}}</view>
+                  </view>
+                </view>
+                <view class="money_num">
+                <text>6.6元</text>
+                <text>8.8元</text>
+                <text>9.9元</text>
+              </view>
+              <view class="self_input {{station2?'show-v':'hide-v'}}" onTap="self">自定义金额</view>
+              <view class="u_wt {{station1?'show-v':'hide-v'}}">
+                <text><input type="number" placeholder="您想赞赏的金额" value="{{inputValue}}" class="inp"></text>
+                <view class="just_it" onTap="zhifu">确定</view>
+              </view>
+           </view>
+            </view>
+          </view>
+
+          
+          </view>
+        </view>
+          <!--dse-->
+         <!--zw-fs-->
+           <view class="v_wrap {{station6?'show-v':'hide-v'}} ">
+            <view class="bg_box">
+               <view class="zhuiwen-box">
+                 <view>
+                 <textarea placeholder="输入要追问的内容" onBlur="zwContent"  class="zhuiwen-text" maxlength="-1" style="height:240rpx;"/>
+                 </view>
+                 <button class="btn-g"type="default" size="defaultSize"   onTap="zwpost" hover-class="defaultTap"> 提交追问 </button>
+              
+
+               </view>
+            </view>
+        </view>
+          <!--zw-fe-->
+       
+   
+      
+      <!--打赏模块-->
+    
+  <!-- loop-e -->
+  
+</view>
+  
+     

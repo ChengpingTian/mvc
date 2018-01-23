@@ -1,0 +1,34 @@
+<view class="wrap">
+  <view class='dh-top' a:for="{{item}}">
+    <view class="dh-item">
+      <view class="dh-left">
+        <image src="{{item.pic}}" mode="scaleToFill" />
+        <view>
+          <view>{{item.name}} 律师</view>
+          <view>{{item.place}}</view>
+        </view>
+      </view>
+      <view class="dh-right"></view>
+    </view>
+    <view class="dh-bot">
+      <view class="date">{{item.date}}</view>
+      <view style="color:#ca020f;">{{item.price}}元/{{item.min}}分钟</view>
+    </view>
+  </view>
+   <view class="tips">
+          <view class="tip-title">
+            提示
+          </view>
+          <view class="tip-con">
+            您还没有发布过任何电话咨询！
+            点击下方在线咨询按钮快速咨询
+          </view>
+          <button type="default" size="defaultSize"  plain="plain}" onTap="tz" hover-class="defaultTap"> 确定 </button>
+        </view>
+  <view class="ban">
+    <image src="../../images/logo.png" mode="widthFix" />
+    <view>专业优质的法律服务平台</view>
+    <view>©2003-2017 9ask.cn All Rights Reserved.</view>
+    <view>鲁公网安备 37010102000476号 鲁ICP备12021926号</view>
+  </view>
+</view>

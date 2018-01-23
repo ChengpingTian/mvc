@@ -1,0 +1,23 @@
+<import src="../biz/components/dropdown/index.axml" />
+<view class="wrap">
+  <view class="app-banner">
+  </view>
+  <view class="form">
+   <view class="name">
+     <text>姓名：</text>
+     <input type="text" onBlur="Jmname" placeholder="填写真实姓名" auto-focus />
+    </view>
+     <view class="name">
+     <text>电话：</text>
+     <input type="text" onBlur="Jmmobile"  placeholder="填写常用手机号" auto-focus />
+    </view>
+     <view class="qu">
+     <text style="position:relative">地区：</text>
+    <text>
+        <template is="DropdownSelect" data={{...dropdownSelectData}} />
+      </text>
+    </view>
+    <button type="default" size="defaultSize"  plain="plain}" onTap="tijiao" hover-class="defaultTap"> 申请加盟 </button>
+    </view>
+    
+</view>

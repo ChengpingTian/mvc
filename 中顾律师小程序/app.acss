@@ -1,0 +1,22 @@
+page {
+  flex: 1;
+  display: flex;
+  background-color:#fff;
+}
+ .ban{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24rpx;
+    color: #888888;
+    line-height: 42rpx;
+    margin-top: 50rpx;
+}
+.ban image{
+  width: 255rpx;
+  height: 84rpx;
+}
+.wrap{
+  width: 100%;
+  
+}

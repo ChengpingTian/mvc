@@ -1,0 +1,9 @@
+<import src="../biz/components/dropdown/index.axml" />
+<view class="wrap">
+  <view class="app-banner">
+  </view>
+    <view class="tips">
+        <view>您的申请已提交</view>
+        <view>稍后我们会有专业的客服与您联系</view>
+    </view>
+</view>

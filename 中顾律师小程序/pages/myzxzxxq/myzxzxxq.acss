@@ -1,0 +1,364 @@
+.app-wrap{
+    width: 100%;
+    background: #f5f5f5;
+    padding: 15rpx;
+    box-sizing: border-box;
+}
+.qa_item {
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 22rpx 20rpx;
+    color: #333;
+    font-size: 28rpx;
+    margin-bottom: 20rpx;
+    box-shadow: 1px 1px 1px 1px #e3e3e3;
+}
+.qa_item .p {
+    display: block;
+    line-height: 24px;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 16rpx;
+}
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:20rpx;
+}
+.date text:first-child {
+    font-size: 26rpx;
+}
+.date text:last-child {
+    font-size: 24rpx;
+    color: #3865cc;
+}
+.lawyer_anser {
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    padding-bottom: 20rpx;
+    margin-bottom: 20rpx;
+}
+.row1 {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 40rpx;
+    padding-top: 50rpx;
+}
+.txtx{
+    width: 141rpx;
+    height: 141rpx;
+}
+.vip{
+    width: 60rpx;
+    height: 23rpx;
+}
+.wei_name {
+    font-size: 32rpx;
+    color: #303030;
+}
+.check_editor {
+    color: #828080;
+    font-size: 28rpx;
+}
+.l_info {
+    margin-left: 20rpx;
+    line-height: 36rpx;
+}
+.row2 {
+    display: flex;
+    margin-top: 14rpx;
+    padding-left: 134rpx;
+}
+.cl_play {
+    width: 368rpx;
+    height: 76rpx;
+    background: #28aef5;
+    line-height: 76rpx;
+    font-size: 26rpx;
+   
+    border-radius: 17px;
+    box-sizing: border-box;
+    position: relative;
+    color: #fff;
+}
+.cl_play .jiao {
+    width: 36rpx;
+    height: 46rpx;
+    position: absolute;
+    left: -10px;
+    bottom: -1px;
+   background: url(../../images/dht.png);
+   background-size: cover;
+}
+.cl_play image {
+    width: 25rpx;
+    height: 37rpx;
+    vertical-align: middle;
+     margin-left: 15px;
+    margin-right: 14px;
+}
+.sound{
+    width: 25rpx;
+    height: 37rpx;
+}
+.row3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20rpx 40rpx;
+    font-size: 14px;
+    color: #888888;
+    justify-content: space-between;
+    margin-top: 30rpx;
+    border-bottom: 1px dotted #e3e3e3;
+}
+.date_ {
+    font-size: 14px;
+    color: #888888;
+}
+.ts {
+    width: 31rpx;
+    height: 35rpx;
+    vertical-align: middle;
+    margin-right: 20rpx;
+    margin-left: 10rpx;
+}
+.tel_q {
+    width: 94px;
+    height: 32px;
+    font-size: 15px;
+    background: #999999;
+    line-height: 32px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    align-items: flex-end;
+    border-radius: 10px 1px 1px 10px;
+}
+.row1 .tx_box {
+    position: relative;
+}
+
+
+.tx_box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.row4 {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20rpx;
+}
+.div_4 {
+    width: 88px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid #888;
+    border-radius: 6px;
+}
+.yzw_font, .ycn_font {
+    color: #888;
+    border: 1px solid #e3e3e3;
+}
+.row4 .daxie {
+    color: #d71801;
+    border: 1px solid #d71801;
+}
+.zw{
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 36rpx;
+    font-size: 28rpx;
+    color: #1f1f1f;
+
+    padding-right: 40rpx;
+}
+.zw image{
+    width: 120rpx;
+    height: 39rpx;
+}
+.zw view{
+    width: 80%;
+}
+.jd{
+    width: 120rpx;
+    height: 39rpx; 
+}
+.roww{
+    padding-left: 0;
+    align-items: center;
+    margin:50rpx 0;
+}
+.zw .jd-con{
+    padding-left: 40rpx;
+    width: 90%;
+    
+}
+.ban{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24rpx;
+    color: #888888;
+    line-height: 42rpx;
+    margin-top: 50rpx;
+}
+.yicn {
+    position: absolute;
+    top: -20px;
+    left: -15px;
+}
+.yicn  image{
+    width: 127rpx;
+    height: 87rpx;
+}
+.bg_box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.dscon {
+    display: flex;
+    flex-direction: column;
+}
+.close {
+    width: 26px;
+    height: 85px;
+    align-self: flex-end;
+}
+.ds_body {
+    width: 250px;
+    background: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 30px 10px;
+    border-radius: 14px;
+}
+.ds_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tx_box {
+    display: flex;
+    align-items: center;
+}
+.l_info {
+    margin-left: 20rpx;
+    line-height: 56rpx;
+}
+.wei_name {
+    font-size:32rpx;
+    color: #303030;
+}
+.check_editor {
+    color: #828080;
+    font-size:28rpx;
+}
+.money_num {
+    margin: 20px 0;
+}
+.money_num text {
+    display: inline-block;
+    width: 140rpx;
+    height:50rpx;
+    border-radius: 14px;
+    line-height: 50rpx;
+    text-align: center;
+    font-size: 30rpx;
+    color: #fff;
+    background: #f54545;
+}
+.money_num text:nth-child(2){
+    margin: 0 5rpx;
+}
+.self_input {
+    color: #858484;
+    font-size: 15px;
+}
+input.inp {
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+    width: 206rpx;
+    box-sizing: border-box;
+    padding-bottom: 8rpx;
+    font-size: 24rpx;
+}
+.just_it{
+   
+    display: inline-block;
+    color: #f54545;
+    border: 1px solid #f54545;
+    width: 120rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius: 14px;
+    text-align: center;
+    margin-left: 40rpx;
+}
+.show-v{
+    display:block;
+}
+.hide-v{
+    display: none;
+}
+.result {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.result image{
+    width: 100%;
+}
+.money {
+    color: #f54545;
+    font-size: 15px;
+}
+.zhuiwen-box{
+    width: 90%;
+    background: #fff;
+    padding: 30rpx;
+    box-sizing: border-box;
+}
+.zhuiwen-text{
+    width: 100%;
+    height: 300rpx;
+    border: 1px solid #3865cc;
+    box-sizing: border-box;
+    padding: 20rpx;
+    font-size: 24rpx;
+
+
+}
+.btn-g{
+    background: #3865cc;
+    color: #fff;
+    margin-top: 50rpx;
+}
+.a-textarea-control textarea.zhuiwen-text{
+    height: 300px;
+}

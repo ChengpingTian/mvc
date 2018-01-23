@@ -1,0 +1,25 @@
+<view class="app-wrap">
+  <view class="title">我的意见</view>
+
+ 
+  <label class="todo-item" a:for="{{lylist}}">
+   <view class="talk-box">
+    <view class="us">
+     <view class="mess">{{item.introduce}}</view>
+ <image class="us-pic" src="{{user.avatar}}" mode="aspectFit" />
+    </view>
+    <view class="time">{{item.addtime}}</view>
+  </view>
+
+   <view class="talk-box" a:if="{{item.isreply == 1}}">
+    <view class="us">
+      <image class="us-pic" src="../../images/txx.png" mode="aspectFit" />
+      <view class="mess">{{item.reply}}</view>
+    </view>
+    <view class="time">{{item.replytime}}</view>
+  </view>
+</label>
+  <navigator url="/pages/yijianbianji/yijianbianji" redirect hover-class="className">
+  <view class="fixed" onTap="goto"></view>
+  </navigator>
+</view>

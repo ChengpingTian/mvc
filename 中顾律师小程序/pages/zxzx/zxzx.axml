@@ -1,0 +1,39 @@
+<import src="../biz/components/dropdown/index.axml" />
+<view class="app-wrap">
+    <view class="te-box">
+        <view class="f-title">
+            <text>无需注册、快速在线咨询</text>
+        </view>
+        <view class="section">
+           <textarea onBlur="zxcontent" 
+           style="font-size:26rpx;height:338rpx"
+           maxlength="-1"
+           
+           
+           placeholder="请详细描述事件的时间、地点、人物、过程、结果、争议的焦点等重要信息，并明确提出你的需求。" />
+        </view>
+
+    </view>
+     <view class="tip1 {{selected1?'show':'hidden'}}">输入内容不足20字，请继续输入</view>
+    <view>
+    <template is="DropdownSelect" data={{...dropdownSelectData}} />
+</view>
+<view class="input">
+    <input type="number" onBlur="zxmobile"  placeholder="您的常用手机号" />
+</view>
+<view class="tip2 {{selected?'show':'hidden'}}">
+    请输入正确手机号
+</view>
+<view class="tips">
+    <text>手机号用于解答后短信提醒，仅本人和律师可见，不会造成隐私泄漏，请放心填写。</text>
+</view>
+ 
+<button type="default" onTap="addzx" size="defaultSize"> 提交问题 </button>
+
+ 
+
+   
+
+  
+  
+</view>

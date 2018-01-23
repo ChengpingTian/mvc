@@ -1,0 +1,113 @@
+  
+
+
+
+
+
+<view class="wrap">
+  <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}"interval="{{interval}}" indicator-color="{{indicatorcolor}}" indicator-active-color="{{active}}">
+    <block>
+       <label class="todo-item" a:for="{{banner}}">
+      <swiper-item>
+        <view class="swiper-item">
+          <image class="banner" src="{{item.imageurl}}" mode="widthFix" />
+        </view>
+      </swiper-item>
+      </label>
+    </block>
+  </swiper>
+  <view class="item">
+    
+    <view class="item-1" onTap="gotozxzx">
+      <view class="item-pic" >
+        <image src="../../images/1.png" mode="widthFix" />
+      </view>
+      <text class="item-name">在线咨询</text>
+    </view>
+    
+    <view class="item-1" onTap="gotodhzx">
+      <view class="item-pic item-pic-2">
+        <image src="../../images/2.png" mode="widthFix" />
+      </view>
+      <text class="item-name">电话咨询</text>
+    </view>
+    <view class="item-1">
+      <view class="item-pic item-pic-3">
+        <image src="../../images/3.png" mode="widthFix" />
+      </view>
+      <text class="item-name">一对一</text>
+    </view>
+    <view class="item-1" onTap="selected1">
+      <view class="item-pic item-pic-4">
+        <image src="../../images/4.png" mode="widthFix" />
+      </view>
+      <text class="item-name">本地律师</text>
+    </view>
+  </view>
+  <view class="tab-con">
+    <view class="body">
+      <view class="nav">
+        <view class="{{selected?'red':'default'}}" onTap="selected">推荐律师</view>
+        <text class="hr-h">|</text>
+        <view class="{{selected1?'red':'default'}}" onTap="selected1">附近律师</view>
+      </view>
+      <view class="result {{selected?'show':'hidden'}}">
+        <scroll-view scroll-y="{{true}}" style="height:500px;" scroll-with-animation="true" onScrollToUpper="upper" onScrollToLower="lower">
+             <label class="todo-item" a:for="{{lawlist}}">
+        <navigator url="/pages/lvshixiangqing/lvshixiangqing?userid={{item.userid}}"  hover-class="navigator-hover">
+        <view class="lawyer-chose">
+          <view class="law-time">执业{{item.zynx}}年</view>
+          <view class="tx-box">
+            <image class="tx-box-pic" src="{{item.userpic}}" mode="scaleToFill" />
+          </view>
+          <view class="lawyer-con">
+            <view>
+              <text>{{item.truename}}</text>
+              <text class="law-where">{{item.pname}}-{{item.cname}}</text>
+            </view>
+            <view class="good-at">{{item.gstr}}</view>
+            <view>
+              <text class="law-workin">{{item.workfirmname}}</text>
+            </view>
+          </view>
+        </view>
+        </navigator>
+        </label>
+ </scroll-view>
+        <view class="dx">
+          <image src="../../images/dx.png"  mode="widthFix" />
+        </view>
+      </view>
+      <view class="result {{selected1?'show':'hidden'}}">
+         <scroll-view scroll-y="{{true}}" style="height:500px;" scroll-with-animation="true" onScrollToUpper="upper" onScrollToLower="lower">
+            
+   <label class="todo-item" a:for="{{lawlist2}}">
+      <navigator url="/pages/lvshixiangqing/lvshixiangqing?userid={{item.userid}}"  hover-class="navigator-hover">
+        <view class="lawyer-chose fujin-lawyer">
+          <view class="law-time km">{{item.long}}km</view>
+          <view class="tx-box">
+            <image class="tx-box-pic" src="{{item.userpic}}" mode="scaleToFill" />
+          </view>
+          <view class="lawyer-con">
+            <view>
+              <text>{{item.truename}}</text>
+              <text class="law-where">{{item.pname}}-{{item.cname}}</text>
+            </view>
+            <view class="good-at">{{item.gstr}}</view>
+            <view>
+              <text class="law-workin">{{item.workfirmname}}</text>
+            </view>
+          </view>
+        </view>
+        </navigator>
+        </label>
+        </scroll-view>
+        <view class="dx">
+          <image src="../../images/dx.png"  mode="widthFix" />
+        </view>
+    
+
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,43 @@
+
+<view class="wrap">
+  <view class="row1">
+    <view class="s-row1">
+      <image src="../../images/tx.png" mode="aspectFit" />
+      <view class="right">
+        <view class="law-name">
+          <text>许明华</text>
+          <text>律师</text>
+        </view>
+      </view>
+    </view>
+    <view class="s-row2">
+      <text>感谢选择我的咨询服务</text>
+      <text>我会尽力为您提供法律帮助</text>
+    </view>
+  </view>
+  <view class="qed">
+    <view class="q-cn">
+    <text class="q-con">咨询内容：</text>公司租办公室，看中一套房，交了订金950
+0多，后来因为室内厕所不想租了，订金上写的日期是
+2017年11月27-2017年12月1日止，逾期不退，现在
+还没过日期，但他们也不退，我们该怎么追回这个订金
+</view>
+<view class="contact-wy">
+  <text class="contact-way">联系方式：</text> 1866079****</view> 
+
+  </view>
+
+
+
+
+   <view class="ban">
+      <image src="../../images/logo.png" mode="widthFix" />
+      <view>专业优质的法律服务平台</view>
+      <view>©2003-2017 9ask.cn All Rights Reserved.</view>
+      <view>鲁公网安备 37010102000476号 鲁ICP备12021926号</view>
+    </view>
+  </view>
+  
+  </view>
+   </view>
+</view>

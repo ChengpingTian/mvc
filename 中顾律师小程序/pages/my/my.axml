@@ -1,0 +1,34 @@
+<view class="wrap">
+    <view class="row1">
+        <view class="s-row1">
+            <image src="{{user.avatar}}" mode="aspectFit" />
+            <view class="right">
+                <view class="law-name">
+                    <text>{{user.nickName}}</text>
+                    <text>({{user.userid}})</text>
+                   
+                </view>
+               
+            </view>
+        </view>
+    </view>
+    <navigator url="/pages/myzxzxlist/myzxzxlist?userid={{user.userid}}"  hover-class="className">
+      <view class="my-zxzx my-bar">我的在线咨询</view>
+    </navigator>
+      <!-- <navigator url="/pages/dhzxlist/dhzxlist?userid={{user.userid}}"  hover-class="className"> -->
+      <view class="my-dhzx my-bar" onTap="tip">我的电话咨询</view>
+    <!-- </navigator> -->
+     
+      <view class="my-ydyzx my-bar" onTap="tip">我的一对一咨询</view>
+   
+
+      <navigator url="/pages/woyaojiameng/woyaojiameng?userid={{user.userid}}"  hover-class="className">
+      <view class="shengqing my-bar">我是律师，申请入驻</view>
+    </navigator>
+    <navigator url="/pages/yijianfankui/yijianfankui?userid={{user.userid}}"  hover-class="className">
+      <view class="fankui my-bar">用户反馈</view>
+       </navigator>
+      
+  
+   
+</view>

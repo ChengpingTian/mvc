@@ -1,0 +1,139 @@
+.wrap{
+    width: 100%;
+    box-sizing:border-box;
+    background: #f5f5f5;
+    padding: 41rpx 26rpx
+}
+.row1{
+    width: 100%;
+    box-shadow: 2px 4px 2px #e3e3ee;
+}
+.s-row1{
+    width:100%;
+    height: 195rpx;
+    background: url(../../images/infobg.jpg) no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 10rpx 32rpx;
+    font-size: 26rpx;
+}
+.s-row1 image{
+    width: 98rpx;
+    height: 98rpx;
+    margin-right: 20rpx;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    font-size: 26rpx;
+    color: #fff;
+}
+
+
+.s-row2{
+    width: 100%;
+    padding: 15rpx;
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 24rpx;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+    padding-bottom: 100rpx;
+}
+.s-row2 text:first-child{
+    font-size: 30rpx;
+    color: #3765cc;
+    font-weight: bold;
+    margin-bottom:20rpx;
+    margin-top:54rpx;
+}
+.s-row2 text:last-child{
+    margin: 20rpx 0;
+}
+
+
+
+
+.zy{
+    margin-top: 20rpx;
+    text-align: center;
+    font-size: 24rpx;
+    color: #999999;
+}
+
+
+    button{
+        background: #3765cc;
+        color: #fff;
+        margin-top: 50rpx;
+    }
+    .ban{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24rpx;
+    color: #888888;
+    line-height: 42rpx;
+    margin-top: 50rpx;
+}
+
+.jine{
+    font-size: 50rpx;
+    font-weight: bold;
+    color: #f68206;
+    width: 24%;
+    height: 60rpx;
+
+    background: #fff;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin-left: -12%;
+    text-align: center;
+}
+.adver{
+    display: flex;
+    flex-direction: column;
+}
+.adver view{
+    margin: 10rpx 0;
+}
+    .tips{
+        font-size: 26rpx;
+        color: #b2b2b2;
+        margin-top: 45rpx;
+    }
+    .bohao image{
+        width: 113rpx;
+        height: 112rpx;
+        margin-top: 50rpx;
+    }
+   .dianji{
+         margin-top:50rpx;
+         
+     }
+    button{
+        background: #3765cc;
+        color: #fff;
+        margin-top: 50rpx;
+    }
+    .s-show{
+        width: 100%;
+       margin-top: 60rpx;
+        border: 2px solid #f68206;
+        border-radius: 14px;
+        display: flex;
+        box-sizing: border-box;
+        padding: 20rpx;
+        height: 300rpx;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }

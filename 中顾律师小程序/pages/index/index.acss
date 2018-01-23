@@ -1,0 +1,167 @@
+
+view{
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+   
+}
+.swiper-item{
+    width: 100%;
+    height: 325rpx;
+}
+.banner{
+    width: 100%;
+    height:100%;
+}
+.item{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding:  58rpx 49rpx;
+    justify-content: space-around
+
+}
+.item-1{
+    text-align: center;
+}
+.item-pic{
+    width: 70rpx;
+    height: 70rpx;
+    margin: 0 auto;
+    margin-bottom: 24rpx;
+}
+.item-pic image{
+    width: 70rpx;
+    height: 70rpx;
+}
+.item-con{
+    font-size: 27rpx;
+}
+
+
+.nav{width:100%;
+    height:100rpx;display:flex;flex-direction:row; 
+    border-top: 1rpx solid #e3e3e3;
+    border-bottom: 1rpx solid #e3e3e3;
+    align-items: center;
+
+}
+.default{
+    text-align:center;
+    color:#000;
+    font-size:30rpx;
+}
+.red{
+    text-align:center;
+    color:#387ae0;
+    font-size:30rpx;
+}
+.show{display:block;}
+.hidden{display:none;}
+.result{
+    width: 100%;
+    box-sizing: border-box;
+    background: #f5f5f5;
+    padding: 21rpx 26rpx;
+    animation: myfirst 1.5s;
+}
+@keyframes myfirst
+{
+from {opacity: 0}
+to {opacity: 1}
+}
+
+@-moz-keyframes myfirst 
+{
+from {opacity: 0}
+to {opacity: 1}
+}
+
+@-webkit-keyframes myfirst 
+{
+from {opacity: 0}
+to {opacity: 1}
+}
+
+@-o-keyframes myfirst 
+{
+from {opacity: 0}
+to {opacity: 1}
+}
+.lawyer-chose{
+    width: 100%;
+    background: #fff;
+     box-shadow: 1px 1px 1px #e3e3e3;
+    display: flex;
+    align-items: center;
+    padding: 30rpx;
+    justify-content: flex-start; 
+    background: url(../../images/r-bg.png) right no-repeat;
+    background-size: 149rpx 190rpx;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 28rpx;
+}
+.tx-box{
+    width: 98rpx;
+    height: 98rpx;
+    border-radius: 50%;
+}
+.tx-box-pic{
+    width: 98rpx;
+    height: 98rpx;
+    border-radius: 50%;
+
+}
+.lawyer-con{
+    font-size: 26rpx;
+    width: 58%;
+    margin-left: 16rpx;
+    
+}
+.law-where{
+    width: auto;
+    height: 34rpx;
+    line-height: 34rpx;
+    text-align: center;
+    font-size: 20rpx;
+    color: #663319;
+    display: inline-block;
+    background: #fde7c0;
+    margin-left: 10rpx;
+    padding: 5rpx;
+}
+.good-at{
+    margin-top: 24rpx;
+}
+.law-workin{
+    color: #666;
+    font-size: 24rpx;
+    margin-top: 5rpx;
+    display: inline-block
+}
+.law-time{
+    width: auto;
+    position: absolute;
+    right: 32rpx;
+    top: 120rpx;
+    color: #663319;
+    font-size: 20rpx;
+}
+.dx{
+    width: 100%;
+    background: none;
+}
+.dx image{
+    width: 100%;
+} 
+.fujin-lawyer{
+    background: url(../../images/loc.png) right no-repeat;
+    background-size: 149rpx 190rpx;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 28rpx;
+}
+.km{
+    color: #387ae0;
+}

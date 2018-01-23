@@ -1,0 +1,113 @@
+.wrap{
+    box-sizing: border-box;
+    width: 100%;
+}
+.s-banner{
+    width: 100%;
+    height: 171rpx;
+}
+.s-banner image{
+    width: 100%;
+    height: auto;
+}
+.fu-list{
+    width: 100%;
+    background: #f5f5f5;
+    box-sizing: border-box;
+    padding: 37rpx 26rpx;
+}
+.list-1{
+    width: 100%;
+    background: #fff;
+    margin-bottom: 37rpx;
+}
+.list-top{
+    display: flex;
+    align-items: center;
+    padding: 36rpx 0;
+    justify-content: space-around;
+    border-bottom: 1px solid #e3e3e3;
+}
+.law-type {
+    width: 126rpx;
+    height: 126rpx;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #3977dc;
+    padding: 26rpx;
+    text-align: center;
+}
+.law-type text{
+    font-size: 34rpx;
+    font-weight: bold;
+    color: #fff;
+
+}
+.law-fu{
+    display: flex;
+    flex-direction: column;
+}
+.zxtype{
+    font-size: 30rpx;
+    color: #333333;
+}
+.f-time{
+    width: 219rpx;
+    text-align: center;
+    line-height: 30rpx;
+    line-height: 30rpx;
+    font-size: 24rpx;
+    color: #8c664b;
+    display: inline-block;
+    background: #fde7c0;
+    box-sizing: 5rpx;
+    border-radius: 14px;
+    margin-left: 148rpx;
+}
+.huifu-time{
+    font-size: 26rpx;
+    color: #666;
+}
+.c-num{
+    color: #cf000d;
+}
+.list-bot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 36rpx;
+    box-sizing: border-box;
+    font-size: 26rpx;
+    font-weight: bold;
+}
+.f-price{
+    color: #cf000d;
+}
+.law-fu view:first-child{
+    margin-bottom: 20rpx;
+}
+.nrt-yy{
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    font-size: 36rpx;
+    font-weight: bold;
+    text-align: center;
+    padding: 30rpx;
+    border-bottom: 1px solid #e3e3e3;
+}
+.f-tips{
+    font-size: 24rpx;
+    color: #666666;
+    line-height:50rpx;
+    margin-top: 30rpx;
+}
+.ban{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24rpx;
+    color: #888888;
+    line-height: 42rpx;
+    margin-top: 50rpx;
+}

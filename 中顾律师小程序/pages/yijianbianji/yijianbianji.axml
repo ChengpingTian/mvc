@@ -1,0 +1,15 @@
+<view class="app-wrap">
+  <view class="title">
+    <text> 意见反馈</text>
+   
+  <view onTap="tijiao">提交</view>
+</view>
+<view class="bj-box">
+  <view><textarea placeholder="必填，详细反馈" onBlur="Fkcontent"  style="height:205rpx;"/></view>
+  <view>
+  <input type="text" placeholder="邮箱或电话" onBlur="Fkmobile"/>
+</view>
+<view class="tips">您的联系方式便于我们沟通和解决问题，仅工作人员可见</view>
+</view>
+
+</view>

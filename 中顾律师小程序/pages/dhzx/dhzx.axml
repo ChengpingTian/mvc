@@ -1,0 +1,85 @@
+
+<view class="wrap">
+  <view class="nav">
+    <view class="navbar">
+      <view class="city">
+        <view onTap="chosecity">{{city}}</view>
+        <view class="triangle"></view>
+      </view>
+      <view class="dir-hr"></view>
+      <view class="goodat">
+        <view onTap="chosetype">{{goodat}}</view>
+        <view class="triangle"></view>
+      </view>
+      <view class="dir-hr"></view>
+      <view class="aiorder">
+        <view onTap="tip">{{other}}智能排序</view>
+        <view class="triangle"></view>
+      </view>
+      <view class="select-con" a:if="{{condition}}">
+        <view class="proven">
+          <scroll-view class="scrol" scroll-y >
+            <block a:for="{{provinces}}">
+              <view a:if="{{index==clickid}}"onTap="test" data-index="{{index}}" class="first">{{item.provinceName}} </view>
+              <view a:else onTap="test" data-index="{{index}}">{{item.provinceName}} </view>
+            </block>
+          </scroll-view>
+        </view>
+        <view class="s-city">
+          <scroll-view class="scrol" scroll-y >
+            <block a:for="{{clickitem}}">
+              <view class="cityname" onTap="chosed" data-index="{{index}}">{{item}}</view>
+            </block>
+          </scroll-view>
+        </view>
+      </view>
+        <view class="select-con1" a:if="{{condition2}}">
+        <view class="proven">
+          <scroll-view class="scrol" >
+            <block a:for="{{alltype}}">
+              <view a:if="{{index==clickid}}"onTap="test1" data-index="{{index}}" class="first">{{item.bigtype}} </view>
+              <view a:else onTap="test1" data-index="{{index}}">{{item.bigtype}} </view>
+            </block>
+          </scroll-view>
+        </view>
+        <view class="s-city">
+          <scroll-view class="scrol" scroll-y >
+            <block a:for="{{clickitem1}}">
+              <view class="cityname" onTap="chosed1" data-index="{{index}}">{{item}}</view>
+            </block>
+          </scroll-view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+
+  <view class="law-boxlist">
+    <scroll-view scroll-y="{{true}}" style="height:500px;" scroll-with-animation="true" onScrollToUpper="upper" onScrollToLower="lower">
+      <view a:for="{{lawlist}}" key="{{item.id}}">
+        <navigator url="/pages/lvshixiangqing/lvshixiangqing?userid={{item.userid}}" hover-class="navigator-hover">
+          <view class="lawyer-chose">
+            <view class="law-time">执业{{item.zynx}}年</view>
+            <view class="tx-box">
+              <image class="tx-box-pic" src="{{item.userpic}}" mode="scaleToFill" />
+            </view>
+            <view class="lawyer-con">
+              <view>
+                <text>{{item.truename}}</text>
+                <text class="law-where">{{item.pname}}-{{item.cname}}</text>
+              </view>
+              <view class="good-at">{{item.gstr}}</view>
+              <view>
+                <text class="law-workin">{{item.workfirmname}}</text>
+              </view>
+            </view>
+          </navigator>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="dixian">
+      <image src="../../images/dixian1.png" mode="aspectFit" />
+    </view>
+  </view>
+</view>

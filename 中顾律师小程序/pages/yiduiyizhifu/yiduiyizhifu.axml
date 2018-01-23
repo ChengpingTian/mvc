@@ -1,0 +1,39 @@
+
+<view class="wrap">
+  <view class="row1">
+    <view class="s-row1">
+      <image src="../../images/tx.png" mode="aspectFit" />
+      <view class="right">
+        <view class="law-name">
+          <text>许明华</text>
+          <text>律师</text>
+        </view>
+      </view>
+    </view>
+    <view class="s-row2">
+      <text>您的问题已经提交</text>
+      <text>为了帮您更快的解决法律问题,</text>
+      <text>请支付律师服务费。</text>
+      <view class="s-show">
+              <view class="jine">
+                ￥300
+              </view>
+              <view class="adver">
+              <view>• 专业认证律师</view>
+              <view>• 律师解答后短信通知，及时查看。</view>
+              <view>• 24小时内不限沟通次数。</view>
+              </view>
+      </view>
+    </view>
+  </view>
+<button type="default" size="defaultSize" onTap="payl">立即支付</button>
+   <view class="ban">
+      <image src="../../images/logo.png" mode="widthFix" />
+      <view>专业优质的法律服务平台</view>
+      <view>©2003-2017 9ask.cn All Rights Reserved.</view>
+      <view>鲁公网安备 37010102000476号 鲁ICP备12021926号</view>
+    </view>
+  </view>
+  </view>
+   </view>
+</view>
